@@ -9,9 +9,10 @@ ASSIGNMENT RULES
 /* EXERCISE 1
 Write a function "area" which receives 2 parameters (l1,l2) and calculates the area of the associated rectangle.
 */
-function area(l1, l2) {
+const area = function (l1, l2) {
   return l1 * l2;
 }
+area()
 //const area = (l1, l2) => l1 * l2;
 
 const areResult = area(3, 4);
